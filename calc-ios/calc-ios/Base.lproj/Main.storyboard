@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JGp-uo-BgH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,21 +7,21 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calc_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="clQ-Y7-1Ja">
-                                <rect key="frame" x="32" y="392" width="350" height="450"/>
+                                <rect key="frame" x="32" y="343" width="350" height="450"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="2Jj-CF-cbA">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="80"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Dv-zg-3hZ" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Dv-zg-3hZ" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="80"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -40,7 +40,7 @@
                                                     <action selector="allClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b4X-hp-Icx"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIN-zF-O6V" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIN-zF-O6V" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="273" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -68,7 +68,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="NHj-Gm-oxh">
                                         <rect key="frame" x="0.0" y="92.5" width="350" height="80"/>
                                         <subviews>
-                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvv-AU-4fz" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvv-AU-4fz" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -87,7 +87,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lw6-oF-lj1"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4IC-K7-ikl" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4IC-K7-ikl" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="91" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -106,7 +106,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7V-BY-G18"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDB-wv-aXV" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDB-wv-aXV" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="182" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -125,7 +125,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TzN-Af-4xt"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpp-ht-yNT" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpp-ht-yNT" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="273" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -153,7 +153,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="7KT-na-xe9">
                                         <rect key="frame" x="0.0" y="185" width="350" height="80"/>
                                         <subviews>
-                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXo-sR-P0N" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXo-sR-P0N" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -173,7 +173,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hnh-nV-Qg9"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBp-oU-XBN" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBp-oU-XBN" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="91" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -193,7 +193,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UAk-Dw-eyv"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F75-aA-CBZ" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F75-aA-CBZ" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="182" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -213,7 +213,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q47-vS-MgN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gx5-pt-ZT9" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gx5-pt-ZT9" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="273" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -242,7 +242,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="qOM-sq-7hK">
                                         <rect key="frame" x="0.0" y="277.5" width="350" height="80"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fv6-34-bgy" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fv6-34-bgy" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -262,7 +262,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ef-iG-22n"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E38-7K-fDf" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E38-7K-fDf" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="91" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -282,7 +282,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpe-83-8GH"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naT-3H-6sV" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naT-3H-6sV" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="182" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -302,7 +302,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YG1-vP-fJU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4V-eQ-lmS" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4V-eQ-lmS" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="273" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -331,7 +331,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="2Ts-tS-lsi">
                                         <rect key="frame" x="0.0" y="370" width="350" height="80"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cP-2N-Sma" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cP-2N-Sma" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="160" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -349,7 +349,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jLH-OQ-K4a"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbQ-Pc-bt7" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbQ-Pc-bt7" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="178" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -368,7 +368,7 @@
                                                     <action selector="dotPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vhL-qm-7pr"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQC-MO-9eH" customClass="RoundButton" customModule="calculator" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQC-MO-9eH" customClass="RoundButton" customModule="calc_ios" customModuleProvider="target">
                                                 <rect key="frame" x="273" y="0.0" width="77" height="80"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -421,11 +421,73 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" id="CcQ-6u-s6J">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="40m-0k-8oR">
+                                <rect key="frame" x="20" y="12" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Home" id="2Xu-7b-r9H">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Gy1-4P-i9i">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I0u-eI-H4z">
+                                <rect key="frame" x="269" y="126" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YDj-AQ-Ppn" kind="show" id="bgF-ct-u4H"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="outputLbl" destination="dDt-rz-WtO" id="tS2-rT-gtl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="459.4202898550725" y="98.4375"/>
+        </scene>
+        <!--Second screen-->
+        <scene sceneID="0ub-xT-afN">
+            <objects>
+                <viewController id="YDj-AQ-Ppn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IYh-wE-n10">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="LwK-fI-McD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Second screen" id="9pG-6Z-O3O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIv-GC-RTt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1139" y="98"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BDR-mq-XY5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JGp-uo-BgH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oOi-rU-Uht">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lJc-a5-MEz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bHO-OO-Zx3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-450.72463768115944" y="98.4375"/>
         </scene>

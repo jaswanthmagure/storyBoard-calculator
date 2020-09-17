@@ -423,7 +423,7 @@
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" id="CcQ-6u-s6J">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="40m-0k-8oR">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="40m-0k-8oR">
                                 <rect key="frame" x="20" y="12" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -435,8 +435,8 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Home" id="2Xu-7b-r9H">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Gy1-4P-i9i">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I0u-eI-H4z">
-                                <rect key="frame" x="269" y="126" width="46" height="30"/>
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I0u-eI-H4z">
+                                <rect key="frame" x="348" y="5.5" width="46" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <state key="normal" title="Next">
@@ -460,7 +460,7 @@
         <!--Second screen-->
         <scene sceneID="0ub-xT-afN">
             <objects>
-                <viewController id="YDj-AQ-Ppn" sceneMemberID="viewController">
+                <viewController id="YDj-AQ-Ppn" customClass="SecondViewController" customModule="calc_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IYh-wE-n10">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

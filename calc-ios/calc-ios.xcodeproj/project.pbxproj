@@ -16,6 +16,7 @@
 		AC38B2DE25124E2500438EC5 /* calc_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38B2DD25124E2500438EC5 /* calc_iosTests.swift */; };
 		AC38B2E925124E2500438EC5 /* calc_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38B2E825124E2500438EC5 /* calc_iosUITests.swift */; };
 		AC38B2F725124E5A00438EC5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38B2F625124E5A00438EC5 /* RoundButton.swift */; };
+		AC625A3825133421002962F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC625A3725133421002962F4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AC38B2E825124E2500438EC5 /* calc_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calc_iosUITests.swift; sourceTree = "<group>"; };
 		AC38B2EA25124E2500438EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC38B2F625124E5A00438EC5 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		AC625A3725133421002962F4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				AC38B2C825124E2200438EC5 /* SceneDelegate.swift */,
 				AC38B2CA25124E2200438EC5 /* ViewController.swift */,
 				AC38B2CC25124E2200438EC5 /* Main.storyboard */,
+				AC625A3725133421002962F4 /* SecondViewController.swift */,
 				AC38B2CF25124E2500438EC5 /* Assets.xcassets */,
 				AC38B2D125124E2500438EC5 /* LaunchScreen.storyboard */,
 				AC38B2D425124E2500438EC5 /* Info.plist */,
@@ -265,6 +268,7 @@
 				AC38B2F725124E5A00438EC5 /* RoundButton.swift in Sources */,
 				AC38B2CB25124E2200438EC5 /* ViewController.swift in Sources */,
 				AC38B2C725124E2200438EC5 /* AppDelegate.swift in Sources */,
+				AC625A3825133421002962F4 /* SecondViewController.swift in Sources */,
 				AC38B2C925124E2200438EC5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
